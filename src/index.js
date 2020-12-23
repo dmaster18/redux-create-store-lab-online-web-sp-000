@@ -7,8 +7,8 @@ function createStore(reducer) {
     return state;
   }
   
-  function dispatch() {
-    
+  function dispatch(action) {
+      state = reducer(state, action)
   }
   
 }
