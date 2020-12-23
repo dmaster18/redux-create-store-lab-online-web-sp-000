@@ -15,5 +15,13 @@ function createStore(reducer) {
   
 }
 
+function candyReducer(state = [], action) {
+  switch (action.type) {
+    case 'ADD_CANDY':
+      return [...state, action.candy];
+    default:
+      return state;
+  }
+
 // use your createStore function and the functions provided here to create a store
 // once the store is created, call an initial dispatch
