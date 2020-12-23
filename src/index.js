@@ -33,6 +33,7 @@ function candyReducer(state = [], action) {
 // once the store is created, call an initial dispatch
 
 let store = createStore(candyReducer)
+store.dispatch({type: 'ADD_CANDY'})
 
 function render() {
   let container = document.getElementById('container');
