@@ -9,7 +9,7 @@ function createStore(reducer) {
   
   function dispatch(action) {
       state = reducer(state, action);
-      
+      render();
   }
   
 }
