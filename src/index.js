@@ -34,4 +34,4 @@ function render() {
   } else {
     throw new Error("the store's state has not been defined yet")
   }
-};
+}
