@@ -1,8 +1,13 @@
 // write your createStore function here
 
 function createStore(reducer) {
+  function getState() {
+    
+  }
   
-  
+  function dispatch() {
+    
+  }
   
 }
 
