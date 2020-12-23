@@ -2,7 +2,7 @@
 
 function createStore(reducer) {
   function getState() {
-    
+    return state;
   }
   
   function dispatch() {
