@@ -12,6 +12,11 @@ function createStore(reducer) {
       render();
   }
   
+  return {
+    dispatch, 
+    getState
+  }
+  
   
 }
 
